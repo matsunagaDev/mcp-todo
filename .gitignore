@@ -1,0 +1,42 @@
+# dependencies
+node_modules/
+*/node_modules/
+**/node_modules/
+.yarn/
+!.yarn/releases
+
+# env files
+.env
+.env.*
+!.env.example
+
+# build outputs
+.next/
+out/
+build/
+dist/
+
+# generated files
+**/generated/
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE
+.vscode/*
+!.vscode/launch.json
+!.vscode/*.code-snippets
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
